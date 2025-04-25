@@ -40,7 +40,7 @@ a{
     color: white;
 }
 
-.Suhu{
+.inputs{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -50,7 +50,7 @@ a{
     max-width: 500px;
 }
 
-.suhu{
+.input{
     flex: 1 1 40%;
     margin: 15px;
     appearance: none;
@@ -68,14 +68,4 @@ a{
     font-size: 18px;
     text-transform: uppercase;
     letter-spacing: 2px;
-}
-button{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    width: 200px;
-    height: 50px;
-    margin: 0 auto;
-    background-color: white;
 }
