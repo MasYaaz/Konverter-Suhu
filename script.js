@@ -35,3 +35,10 @@ for(let i=0; i<inputs.length; i++) {
         }
     });
 }
+
+function clearDisplay(){
+    celciussuhu.value = "";
+    fahrenheitsuhu.value = "";
+    kelvinsuhu.value = "";
+    reamursuhu.value = "";
+}
