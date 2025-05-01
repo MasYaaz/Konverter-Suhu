@@ -1,5 +1,5 @@
-# KALKULATOR SUHU
-Kalkulator ini berguna untuk mengkonversi satuan suhu dari Celcius, Fahrenheit, Reamur & Kelvin
+# KONVERTER SUHU
+Website ini berguna untuk mengkonversi satuan suhu dari Celcius, Fahrenheit, Reamur & Kelvin secaran mudah dan cepat.
 
 ## UI (Antar Muka Desain Web)
 ![Tampilan Website](res/tampilan.png)
