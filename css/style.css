@@ -61,11 +61,11 @@ main{
 .tulisan1{
   font-size: x-large;
   display: flex;
-  justify-content: left;
+  justify-content: center;
   text-align: center;
   padding-top: 1%;
   padding-bottom: 1%;
-  max-width: 1000px;
+  max-width: 750px;
   color: hsl(217, 42%, 12%);
 }
 /* ini tempat buat naruh textbox input */
@@ -74,7 +74,7 @@ main{
   flex-wrap: wrap;
   justify-content: left;
   margin-top: 10px;
-  max-width: 1000px;
+  max-width: 750px;
   flex-direction: column;
 }
 .row{
@@ -82,7 +82,7 @@ main{
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 20px;
-  width: 1000px;
+  width: 750px;
   flex-direction: row;
 }
 .a{
@@ -219,7 +219,7 @@ main{
   flex-wrap: wrap;
   align-content: center;
   justify-content: center;
-  width: 1000px;
+  width: 750px;
   padding-top: 25px;
   padding-bottom: 150px ;
 }
