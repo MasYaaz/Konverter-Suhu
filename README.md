@@ -38,4 +38,4 @@ Ini adalah tampilan Penjelasan tentang rumus konversi suhu.
 - Jika Ingin Menghapus tulisan di textbox input, Tekan clear.
 
 ## LINK WEB
-Untuk melihat website ini silahkan klik link berikut [ini.](https://revou-fundamental-course.github.io/21-apr-25-MasYaaz/)
+Untuk melihat website ini silahkan klik link berikut [ini.](https://masyaaz.github.io/Website-Konverter-Suhu/)
