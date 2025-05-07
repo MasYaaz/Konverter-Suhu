@@ -1,8 +1,21 @@
-# KONVERTER SUHU
+# LAMAN WEBSITE KONVERTER SUHU
 Website ini berguna untuk mengkonversi satuan suhu dari Celcius, Fahrenheit, Reamur & Kelvin secaran mudah dan cepat.
 
 ## UI (Antar Muka Desain Web)
 ![Tampilan Website](res/tampilan.png)
+Ini adalah tampilan pertama laman web ini.
+<br>
+<br>
+
+![Tampilan Website](res/konverter.png)
+Ini adalah tampilan Konverter Suhu.
+<br>
+<br>
+
+![Tampilan Website](res/penjelasan.png)
+Ini adalah tampilan Penjelasan tentang rumus konversi suhu.
+<br>
+<br>
 
 ## FUNGSI & KELEBIHAN
 - Mengkonversikan satuan suhu baik itu Celcius, Fahrenheit, Reamur & Kelvin.
