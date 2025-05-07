@@ -1,4 +1,4 @@
-# LAMAN WEBSITE KONVERTER SUHU
+# WEBSITE KONVERTER SUHU
 Website ini berguna untuk mengkonversi satuan suhu dari Celcius, Fahrenheit, Reamur & Kelvin secaran mudah dan cepat.
 
 ## UI (Antar Muka Desain Web)
@@ -23,9 +23,14 @@ Ini adalah tampilan Penjelasan tentang rumus konversi suhu.
 - Web Responsif
 
 ## BAHASA
+[![My Skills](https://skillicons.dev/icons?i=js,html,css)]()
 - HTML
 - CSS
 - Javascript (js)
+
+## FRAMEWORKS
+[![My Skills](https://skillicons.dev/icons?i=bootstrap)]()
+- Bootstrap
 
 ## CARA PENGGUNAAN
 - Buka web
