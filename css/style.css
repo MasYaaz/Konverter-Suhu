@@ -173,6 +173,16 @@ main {
   flex-wrap: wrap;
   height: 750px;
 }
+
+.penjelasan {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+  height: 750px;
+}
 /* main bagian kiri */
 
 .tulisan1 {
@@ -236,14 +246,13 @@ main {
   letter-spacing: 2px;
 }
 
-.rowtombol{
-  display:flex;
+.rowtombol {
+  display: flex;
   justify-content: center;
 }
 
 /* Ini tombol clear buat hilangin semua tulisan */
 .tombol {
-  margin: 12px;
   position: relative;
   border: none;
   background: transparent;
@@ -325,16 +334,6 @@ main {
   user-select: none;
 }
 /* Ini bagian bawah */
-.penjelasan {
-  padding-top: 10px;
-  padding-bottom: 30px;
-  display: flex;
-  width: fit-content;
-  height: 100%;
-  flex-direction: column;
-  max-height: 100%;
-  align-items: center;
-}
 
 .pemisah {
   display: flex;
@@ -345,8 +344,19 @@ main {
   padding-top: 25px;
   padding-bottom: 150px;
 }
-.pembatas {
+.pembatas1 {
   padding: 30px;
+  border-radius: 30px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pembatas2 {
+  padding: 30px;
+  margin-left: 30px;
   border-radius: 30px;
   width: 350px;
   display: flex;
@@ -381,7 +391,7 @@ footer {
   padding-bottom: 5px;
 }
 
-.tengah{
+.tengah {
   display: flex;
   justify-content: center;
 }
@@ -392,11 +402,73 @@ h6 {
   letter-spacing: 2px;
 }
 
-/* Ini untuk mengatur ukuran web dengan ukuran layar berbeda */
-@media screen and (max-width: 1000px) {
-  h1 {
-    font-size: 20px;
+/* Ini untuk mengatur ukuran web dengan ukuran layar Mobile / Smartphone */
+@media screen and (max-width: 480px) {
+  /* //////Ini Navbar logo///// */
+
+  .navbar-brand {
+    display: flex;
+    font-size: 20px !important;
+    font-weight: 1000;
+    letter-spacing: 2px;
+    color: white;
+    align-items: center;
   }
+
+  .navbar-toggler {
+    padding: 0 !important;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 0px solid transparent !important;
+    border-radius: 0.25rem;
+    transition: box-shadow 0.15s ease-in-out;
+  }
+
+  .navbar-toggler:focus {
+    box-shadow: 0 0 0 0rem !important;
+  }
+
+  /* ////// Ukuran Font ///// */
+  .lead {
+    font-size: x-large !important;
+    text-align: justify;
+  }
+  .tulisan1 {
+    font-size: medium;
+    max-width: 300px;
+  }
+
+  .tulisan3 {
+    font-size: medium;
+  }
+
+  .tulisan5 {
+    font-size: medium;
+  }
+
+  .tulisan6 {
+    font-size: medium;
+  }
+
+  .a {
+    font-size: small;
+    padding-left: 0 !important;
+  }
+
+  p {
+    font-size: large !important;
+  }
+
+  .tbl {
+    font-size: small;
+  }
+
+  h6 {
+    padding-top: 10px;
+    font-size: small !important;
+  }
+
   .logo {
     padding-top: 5px;
     padding-right: 5px;
@@ -404,22 +476,44 @@ h6 {
     width: 30px;
     height: 30px;
   }
+
+  /* ////// Penyesuaian Layout ///// */
+  .section-padding {
+    padding-top: 80px;
+    padding-bottom: 10px !important;
+  }
+
+  .kalkulator {
+    margin-top: 0px !important;
+    margin-bottom: 10px !important;
+    padding-top: 75px !important;
+  }
+
+  .penjelasan {
+    margin-top: 0px !important;
+    margin-bottom: 10px !important;
+    padding-top: 5px !important;
+  }
+
+  .home {
+    padding-top: 110px;
+  }
+
   main {
     padding-top: 0px;
   }
-  .atas {
-    max-width: 300px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+  .row > * {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    margin-top: var(--bs-gutter-y);
   }
+
   .row {
     margin-top: 5px;
     max-width: 300px;
   }
-  .tulisan1 {
-    font-size: x-small;
-    max-width: 300px;
-  }
+
   .inputs {
     margin-top: 10px;
     max-width: 300px;
@@ -436,6 +530,7 @@ h6 {
     transition: 300ms ease-in-out;
     max-width: 100%;
   }
+
   ::placeholder {
     font-size: x-small;
     text-transform: uppercase;
@@ -446,29 +541,31 @@ h6 {
     transform: scale(1.02);
     box-shadow: 7px 7px 50px #969696, -7px -7px 50px #ffffff;
   }
-  .a {
-    font-size: x-small;
-    padding-left: 0;
-  }
-  .bawah {
-    max-width: 300px;
-  }
+
   .pemisah {
     max-width: 300px;
-    padding-top: 10px;
-    padding-bottom: 50px;
   }
-  .tbl {
-    font-size: small;
+
+  .pembatas1 {
+    padding: 20px;
+    border-radius: 30px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
-  .tulisan3 {
-    font-size: small;
-  }
-  .tulisan5 {
-    font-size: small;
-  }
-  .tulisan6 {
-    font-size: small;
+
+  .pembatas2 {
+    padding: 20px;
+    margin-left: 0;
+    margin-top: 20px;
+    border-radius: 30px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
   footer {
@@ -476,22 +573,7 @@ h6 {
     padding-right: 10px;
     padding-bottom: 5px;
   }
-  .headerkiri {
-    display: flex;
-    flex-wrap: wrap;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    justify-content: flex-start;
-    width: 30%;
-  }
-  .headerkanan {
-    display: flex;
-    flex-wrap: wrap;
-    width: 70%;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    align-content: center;
-  }
+
   .logo .icon-content a {
     position: relative;
     overflow: hidden;
@@ -511,12 +593,7 @@ h6 {
     width: 20px;
     height: 20px;
   }
-  h4 {
-    color: white;
-    font-size: x-small;
-    text-transform: none;
-    letter-spacing: 2px;
-  }
+
   .logo {
     display: flex;
     flex-direction: column;
@@ -524,6 +601,7 @@ h6 {
     gap: 5px;
     align-items: center;
   }
+
   .logo .icon-content .tooltip {
     position: absolute;
     top: -10px;
